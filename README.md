@@ -5,6 +5,11 @@
 
 1. Download and install Java JDK 11
 2. Download and install Apache Maven and set up environment variables for Maven
+3. Download the Application under test from this GitHub link: https://github.com/swagger-api/swagger-petstore
+4. You can build the application using multiple ways given in the readme of the GitHub link (Using Maven or Docker)
+5. To run using Maven: mvn package jetty:run
+6. Similarly, you can also run the app using Docker
+7. The application needs to be up and running before you run the test automation framework
 
 ### Solution Approach
 1. I have chosen a BDD cucumber framework so that the scenarios can be understood by any stakeholders. This is also a very common but efficient industrial approach for developing RestAPI test automation framework as the stories in the form of Gherkin can directly come from PO or from the derived test scenarios from large epics or stories
