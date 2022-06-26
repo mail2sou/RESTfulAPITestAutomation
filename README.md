@@ -3,11 +3,11 @@
 
 ### Pre-Requisites
 
-1. Download and install Java JDK 8
+1. Download and install Java JDK 11
 2. Download and install Apache Maven and set up environment variables for Maven
 
 ### Solution Approach
-1. I have chosen a BDD cucumber framework so that the scenarios can be understood by any stakeholders. This is a also a very common industrial approach for developing RestAPI test automation framework as the stories in the form of Gherkin can directly come from PO or from the derived test scenarios from large epics or stories
+1. I have chosen a BDD cucumber framework so that the scenarios can be understood by any stakeholders. This is also a very common but efficient industrial approach for developing RestAPI test automation framework as the stories in the form of Gherkin can directly come from PO or from the derived test scenarios from large epics or stories
 
 ### List of test cases proposed for automation
 1. Verify Put, Post and Delete Pet operation
@@ -41,7 +41,3 @@
 ### Getting the test report
 1. Once the execution is complete, the test reports can be found in "Reports\Spark.html"
 
-### Note: Things that I would have improved, if I had more time
-1. Use lesser conditional statements in the framework
-2. Had lesser hardcoded logics in the step definition
-3. Instead of a single step definition, probably would have created different classes to achieve the testing
